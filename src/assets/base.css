@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  min-width: 320px;
+  background: var(--color-background);
+  line-height: 1.6;
+  font-family:
+    serif,
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*Para que el autocompletado no sombree de gris*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px var(--c-card) inset;
+  -webkit-text-fill-color: var(--c-ink);
+}
+
+::selection {
+  background-color: var(--c-lime);
+  color: var(--c-ink);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
