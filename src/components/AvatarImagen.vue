@@ -10,7 +10,7 @@
   height: 180px;
   object-fit: cover;
   box-shadow: var(--shadow-ink-avatar);
-  border: var(--boder-solid-ink);
+  border: var(--border-solid-ink);
   border-radius: 50%;
   transform: rotate(1.75deg);
 
