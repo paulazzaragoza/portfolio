@@ -8,6 +8,7 @@
 .avatar-img {
   width: 180px;
   height: 180px;
+  display: block;
   object-fit: cover;
   box-shadow: var(--shadow-ink-avatar);
   border: var(--border-solid-ink);

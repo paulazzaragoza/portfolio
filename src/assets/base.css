@@ -135,5 +135,9 @@
     p {
       font-size: 1rem;
     }
+
+    body {
+      padding: 0 0.3rem;
+    }
   }
 }
