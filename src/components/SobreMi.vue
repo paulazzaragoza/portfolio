@@ -17,6 +17,7 @@ import AvatarImagen from './AvatarImagen.vue'
         por mi cuenta.
       </p>
     </section>
+    <div style="grid-area: card-chips">CHIPS</div>
     <div class="flex justify-content-center" style="grid-area: card-img">
       <AvatarImagen />
     </div>
@@ -39,12 +40,17 @@ import AvatarImagen from './AvatarImagen.vue'
     'card-title card-title card-title card-title card-title'
     'card-content card-content card-content card-img card-img'
     'card-content card-content card-content card-img card-img'
+    'card-chips  card-chips  card-chips  card-chips  card-chips'
     'card-footer card-footer card-footer card-footer card-footer';
 
   background: var(--c-card);
   border: var(--border-solid-ink);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-ink-card);
+}
+
+footer {
+  border-top: 2.5px dashed rgba(26, 25, 24, 0.2);
 }
 
 @media (max-width: 700px) {
@@ -56,6 +62,8 @@ import AvatarImagen from './AvatarImagen.vue'
       'card-title'
       'card-content'
       'card-footer';
+
+    gap: 1rem;
   }
 }
 </style>

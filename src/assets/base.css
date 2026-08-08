@@ -20,6 +20,10 @@
 
     --shadow-ink-card: 7px 7px 0 var(--c-ink);
 
+    --shadow-ink-avatar: 6px 6px 0 var(--c-ink);
+
+    --shadow-ink-avatar-hover: 10px 10px 0 var(--c-ink);
+
     --title-font: 'Space Grotesk', sans-serif;
     --text-font: 'Plus Jakarta Sans', sans-serif;
     --code-font: 'JetBrains Mono', monospace;
