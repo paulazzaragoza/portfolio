@@ -1,4 +1,5 @@
 # portfolio
+[![Deploy static content to Pages](https://github.com/paulazzaragoza/portfolio/actions/workflows/deploy.yaml/badge.svg)](https://github.com/paulazzaragoza/portfolio/actions/workflows/deploy.yaml)
 
 This template should help get you started developing with Vue 3 in Vite.
 
