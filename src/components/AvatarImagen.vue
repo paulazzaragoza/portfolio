@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <img class="avatar-img" src="/me.png" alt="Foto de perfil" />
+  <img class="avatar-img" src="/me.jpeg" alt="Foto de perfil" />
 </template>
 
 <style scoped>

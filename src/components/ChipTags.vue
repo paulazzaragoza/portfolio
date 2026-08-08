@@ -21,7 +21,7 @@ const tags = [
 </script>
 
 <template>
-  <div class="flex flex-wrap gap-1 mt-6 mb-4">
+  <div class="flex flex-wrap justify-content-center align-items-center gap-1 mt-6 mb-4">
     <Chip v-for="tag in tags" class="chip-tag" :key="tag" :label="tag"> </Chip>
   </div>
 </template>
