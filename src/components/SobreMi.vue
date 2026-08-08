@@ -40,7 +40,7 @@ import AvatarImagen from './AvatarImagen.vue'
     'card-title card-title card-title card-title card-title'
     'card-content card-content card-content card-img card-img'
     'card-content card-content card-content card-img card-img'
-    'card-chips  card-chips  card-chips  card-chips  card-chips'
+    'card-chips card-chips card-chips card-chips card-chips'
     'card-footer card-footer card-footer card-footer card-footer';
 
   background: var(--c-card);
@@ -61,6 +61,7 @@ footer {
       'card-img'
       'card-title'
       'card-content'
+      'card-chips'
       'card-footer';
 
     gap: 1rem;

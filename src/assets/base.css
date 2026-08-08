@@ -2,6 +2,7 @@
 
 @layer app {
   :root {
+    color-scheme: light;
     --c-cream: #f9f6f0;
     --c-ink: #1a1918;
     --c-matcha: #5b8c5a;
