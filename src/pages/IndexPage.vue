@@ -5,7 +5,7 @@ import SobreMi from '@/components/SobreMi.vue'
 </script>
 
 <template>
-  <header class="mt-5">
+  <header class="my-5">
     <div class="flex align-items-center justify-content-between w-full chips-container">
       <ChipTitulo />
       <ChipStatus />

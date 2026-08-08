@@ -10,7 +10,7 @@
   height: 180px;
   object-fit: cover;
   box-shadow: var(--shadow-ink-avatar);
-  border: 3px solid var(--c-ink);
+  border: var(--boder-solid-ink);
   border-radius: 50%;
   transform: rotate(1.75deg);
 
@@ -22,5 +22,12 @@
 .avatar-img:hover {
   box-shadow: var(--shadow-ink-avatar-hover);
   transform: rotate(0deg) scale(1.03);
+}
+
+@media (max-width: 400px) {
+  .avatar-img {
+    width: 160px;
+    height: 160px;
+  }
 }
 </style>

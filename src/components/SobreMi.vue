@@ -1,13 +1,15 @@
 <script setup>
 import AvatarImagen from './AvatarImagen.vue'
+import ContactoBotones from './ContactoBotones.vue'
+import ChipTags from './ChipTags.vue'
 </script>
 
 <template>
-  <div class="card-container py-5 px-5">
+  <div class="card-container">
     <header style="grid-area: card-title">
       <h3>¡Hola! Soy <span class="highlight-name">{Paula Mei}</span></h3>
     </header>
-    <section class="flex flex-column gap-3" style="grid-area: card-content">
+    <section class="flex flex-column gap-7" style="grid-area: card-content">
       <p>
         Estudiante de <strong>Ingeniería del Software</strong>. Me gusta construir cosas para que
         sean rápidas, legibles y que no compliquen la vida al usuario.
@@ -17,11 +19,11 @@ import AvatarImagen from './AvatarImagen.vue'
         por mi cuenta.
       </p>
     </section>
-    <div style="grid-area: card-chips">CHIPS</div>
+    <ChipTags style="grid-area: card-chips" />
     <div class="flex justify-content-center" style="grid-area: card-img">
       <AvatarImagen />
     </div>
-    <footer style="grid-area: card-footer">ADIOSs</footer>
+    <footer style="grid-area: card-footer"><ContactoBotones /></footer>
   </div>
 </template>
 
@@ -33,6 +35,7 @@ import AvatarImagen from './AvatarImagen.vue'
 .card-container {
   width: 100%;
   min-height: 30rem;
+  padding: 2rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -65,6 +68,12 @@ footer {
       'card-footer';
 
     gap: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .card-container {
+    padding: 1rem;
   }
 }
 </style>
