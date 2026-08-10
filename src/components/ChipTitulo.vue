@@ -1,9 +1,12 @@
 <script setup>
 import { Chip } from 'primevue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
-  <Chip class="titulo justify-content-center" label="mi_portfolio.v1"> </Chip>
+  <Chip class="titulo justify-content-center" :label="t('chip-titulo.title')" />
 </template>
 
 <style scoped>
@@ -30,7 +33,7 @@ import { Chip } from 'primevue'
   box-shadow: var(--shadow-ink-active);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .p-chip.titulo {
     transform: rotate(-1.25deg);
     width: 100%;

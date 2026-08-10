@@ -6,6 +6,7 @@
 
 <style scoped>
 .avatar-img {
+  background-color: var(--c-ink);
   width: 180px;
   height: 180px;
   display: block;

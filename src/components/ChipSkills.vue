@@ -1,27 +1,16 @@
 <script setup>
 import { Chip } from 'primevue'
 
-const tags = [
-  '#Java',
-  '#SpringBoot',
-  '#SpringSecurity',
-  '#RESTAPI',
-  '#VueJS3',
-  '#Swagger',
-  '#Bruno',
-  '#HATEOAS',
-  '#JavaScript',
-  '#SQLServer',
-  '#PowerBI',
-  '#Swift',
-  '#SwiftUI',
-  '#Figma',
-  '#Xcode',
-]
+const { tags } = defineProps({
+  tags: {
+    type: Array,
+    required: true,
+  },
+})
 </script>
 
 <template>
-  <div class="flex flex-wrap align-items-center gap-1 container">
+  <div class="flex flex-wrap align-items-center gap-1 mb-2 container">
     <Chip v-for="(tag, index) in tags" class="chip-tag" :key="index" :label="tag" />
   </div>
 </template>
@@ -32,7 +21,7 @@ const tags = [
   font-size: 0.85rem;
   font-weight: 700;
   background-color: var(--c-cream);
-  border: var(--border-solid-ink);
+  border: 2px solid var(--c-ink);
   box-shadow: none;
   border-radius: 8px;
   padding: 0.25rem 0.5rem;

@@ -1,0 +1,75 @@
+{
+  "chip-status": {
+    "title": "Studying Computer Engineering • UMU"
+  },
+
+  "chip-titulo": {
+    "title": "my_portfolio.v1"
+  },
+
+  "sobre-mi": {
+    "welcome": "Hi! I'm ",
+    "first-paragraph-start": "I'm a student of ",
+    "degree": "Software Engineering",
+    "first-paragraph-end": ". I enjoy building things that are fast, readable, and don't make life harder for the user.",
+    "second-paragraph": "Currently struggling with my end-of-year exams and learning software architecture on my own."
+  },
+
+  "seccion-proyectos": {
+    "title": "Featured projects"
+  },
+
+  "proyectos": {
+    "primer-proyecto": {
+      "type": "ACADEMIC PROJECT",
+      "title": "MiCartera",
+      "content": "Desktop application for managing a personal portfolio, developed with Java and JavaFX following the MVC pattern.",
+      "learnt": "I learned how to structure an application using MVC and properly separate business logic, the interface, and data.",
+      "tags": ["Java", "JavaFX", "MVC"],
+      "link": "https://github.com/paulazzaragoza/MiCartera",
+      "style": {
+        "rotation": "-2deg",
+        "titleColor": "var(--c-terracotta)"
+      }
+    },
+    "segundo-proyecto": {
+      "type": "ACADEMIC PROJECT",
+      "title": "TaskFlow",
+      "content": "Task management application developed with Spring Boot and Java, using JPA and hexagonal architecture.",
+      "learnt": "I learned how to apply hexagonal architecture to isolate the domain and keep the code decoupled between logic and infrastructure.",
+      "tags": ["Java", "Spring Boot", "JavaFX", "JPA"],
+      "link": "https://github.com/paulazzaragoza/TaskFlow",
+      "style": {
+        "rotation": "2deg",
+        "titleColor": "var(--c-terracotta)"
+      }
+    },
+    "tercer-proyecto": {
+      "type": "INTERNSHIP PROJECT",
+      "title": "EcoMarket",
+      "content": "Web application for managing a marketplace, developed during an internship using Spring Boot and hexagonal architecture.",
+      "learnt": "I learned how to connect frontend and backend using JPA/HATEOAS, pagination, MapStruct, Swagger, and Cucumber.",
+      "tags": [
+        "Spring Boot",
+        "JPA",
+        "HATEOAS",
+        "Swagger",
+        "MapStruct",
+        "Cucumber",
+        "Vue",
+        "Vite",
+        "JavaScript",
+        "REST APIs"
+      ],
+      "link": "https://github.com/paulazzaragoza/EcoMarket",
+      "style": {
+        "rotation": "-2deg",
+        "titleColor": "var(--c-matcha)"
+      }
+    }
+  },
+
+  "footer": {
+    "title": "Designed and developed with care by Paula Mei"
+  }
+}

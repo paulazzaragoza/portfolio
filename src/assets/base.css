@@ -7,6 +7,7 @@
     --c-ink: #1a1918;
     --c-matcha: #5b8c5a;
     --c-terracotta: #e06d53;
+    --c-terracotta-alpha: rgba(224, 109, 83, 0.1);
     --c-butter: #f3e388;
     --c-card: #ffffff;
 
@@ -41,7 +42,6 @@
 
   .p-card {
     border: var(--border-solid-ink);
-    box-shadow: var(--shadow-ink-card);
     --p-card-background: var(--c-card);
     --p-card-border-radius: var(--border-radius);
   }
@@ -55,6 +55,7 @@
     font-family: var(--title-font);
     font-size: 2.5rem;
     font-weight: 700;
+    line-height: 2.75rem;
   }
 
   p {
@@ -67,6 +68,10 @@
     color: var(--c-ink);
     font-family: var(--text-font);
     font-size: 1rem;
+  }
+
+  hr {
+    border-top: 3px solid var(--c-ink);
   }
 
   body {
@@ -134,6 +139,10 @@
 
     p {
       font-size: 1rem;
+    }
+
+    p.subtitle {
+      font-size: 0.85rem;
     }
 
     body {

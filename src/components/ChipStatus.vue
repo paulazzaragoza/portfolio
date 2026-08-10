@@ -1,11 +1,14 @@
 <script setup>
 import { Chip } from 'primevue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
   <Chip class="flex align-items-center justify-content-center status text-center gap-2">
     <span class="status-dot" />
-    <span> Estudiando Ingeniería Informática • UMU </span>
+    <span> {{ t('chip-status.title') }} </span>
   </Chip>
 </template>
 
@@ -41,7 +44,7 @@ import { Chip } from 'primevue'
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .p-chip.status {
     width: 100%;
   }

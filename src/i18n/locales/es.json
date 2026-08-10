@@ -1,0 +1,75 @@
+{
+  "chip-status": {
+    "title": "Estudiando Ingeniería Informática • UMU"
+  },
+
+  "chip-titulo": {
+    "title": "mi_portfolio.v1"
+  },
+
+  "sobre-mi": {
+    "welcome": "¡Hola! Soy ",
+    "first-paragraph-start": "Estudiante de ",
+    "degree": "Ingeniería del Software",
+    "first-paragraph-end": ". Me gusta construir cosas para que sean rápidas, legibles y que no compliquen la vida al usuario.",
+    "second-paragraph": "Actualmente peleando con los exámenes de fin de curso y aprendiendo arquitectura de softwarepor mi cuenta."
+  },
+
+  "seccion-proyectos": {
+    "title": "Proyectos destacados"
+  },
+
+  "proyectos": {
+    "primer-proyecto": {
+      "type": "PROYECTO DE CARRERA",
+      "title": "MiCartera",
+      "content": "Aplicación de escritorio para gestionar una cartera personal, desarrollada en Java y JavaFX siguiendo el patrón MVC.",
+      "learnt": "Aprendí a estructurar una aplicación siguiendo MVC y a separar correctamente la lógica de negocio, la interfaz y los datos.",
+      "tags": ["Java", "JavaFX", "MVC"],
+      "link": "https://github.com/paulazzaragoza/MiCartera",
+      "style": {
+        "rotation": "-2deg",
+        "titleColor": "var(--c-terracotta)"
+      }
+    },
+    "segundo-proyecto": {
+      "type": "PROYECTO DE CARRERA",
+      "title": "TaskFlow",
+      "content": "Aplicación de gestión de tareas desarrollada con Spring Boot y JavaFX, utilizando JPA y arquitectura hexagonal.",
+      "learnt": "Aprendí a aplicar arquitectura hexagonal para aislar el dominio y mantener el código desacoplado entre la lógica y la infraestructura.",
+      "tags": ["Java", "Spring Boot", "JavaFX", "JPA"],
+      "link": "https://github.com/paulazzaragoza/TaskFlow",
+      "style": {
+        "rotation": "2deg",
+        "titleColor": "var(--c-terracotta)"
+      }
+    },
+    "tercer-proyecto": {
+      "type": "PROYECTO DE PRÁCTICAS",
+      "title": "EcoMarket",
+      "content": "Aplicación web para la gestión de un marketplace, desarrollada durante las prácticas con Spring Boot y arquitectura hexagonal.",
+      "learnt": "Aprendí a conectar frontend y backend utilizando JPA/HATEOAS, paginación, Swagger, Vue.js y JavaScript.",
+      "tags": [
+        "Spring Boot",
+        "JPA",
+        "HATEOAS",
+        "Swagger",
+        "MapStruct",
+        "Cucumber",
+        "Vue",
+        "Vite",
+        "JavaScript",
+        "APIs REST"
+      ],
+      "link": "https://github.com/paulazzaragoza/EcoMarket",
+      "style": {
+        "rotation": "-2deg",
+        "titleColor": "var(--c-matcha)"
+      }
+    }
+  },
+
+  "footer": {
+    "title": "Diseñado y desarrollado con cariño por Paula Mei"
+  }
+}

@@ -2,27 +2,35 @@
 import AvatarImagen from './AvatarImagen.vue'
 import ContactoBotones from './ContactoBotones.vue'
 import ChipTags from './ChipTags.vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
   <div class="card-container">
     <header style="grid-area: card-title">
-      <h3>¡Hola! Soy <span class="highlight-name">{Paula Mei}</span></h3>
+      <h3 class="mb-4">
+        {{ t('sobre-mi.welcome') }} <span class="highlight-name">{Paula Mei}</span>
+      </h3>
     </header>
-    <section class="flex flex-column gap-7" style="grid-area: card-content">
+
+    <section class="flex flex-column gap-4 mt-2" style="grid-area: card-content">
       <p>
-        Estudiante de <strong>Ingeniería del Software</strong>. Me gusta construir cosas para que
-        sean rápidas, legibles y que no compliquen la vida al usuario.
+        {{ t('sobre-mi.first-paragraph-start') }} <strong>{{ t('sobre-mi.degree') }}</strong>
+        {{ t('sobre-mi.first-paragraph-end') }}
       </p>
       <p class="subtitle">
-        Actualmente peleando con los exámenes de fin de curso y aprendiendo arquitectura de software
-        por mi cuenta.
+        {{ t('sobre-mi.second-paragraph') }}
       </p>
     </section>
-    <ChipTags style="grid-area: card-chips" />
+
     <div class="flex justify-content-center" style="grid-area: card-img">
       <AvatarImagen />
     </div>
+
+    <ChipTags style="grid-area: card-chips" />
+
     <footer style="grid-area: card-footer"><ContactoBotones /></footer>
   </div>
 </template>
@@ -32,6 +40,7 @@ import ChipTags from './ChipTags.vue'
   background: linear-gradient(180deg, transparent 50%, var(--c-butter) 50%);
   padding: 0 1rem;
 }
+
 .card-container {
   width: 100%;
   min-height: 30rem;

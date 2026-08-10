@@ -19,7 +19,7 @@ const iconos = ['pi pi-github', 'pi pi-linkedin']
     <Button
       class="boton-contacto gap-2"
       v-for="(nombre, index) in nombreRedeSociales"
-      :key="nombre"
+      :key="index"
       :label="nombre"
       :icon="iconos[index]"
       iconPos="right"
