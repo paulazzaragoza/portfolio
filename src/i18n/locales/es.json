@@ -20,28 +20,16 @@
   },
 
   "proyectos": {
-    "primer-proyecto": {
-      "type": "PROYECTO DE CARRERA",
-      "title": "MiCartera",
-      "content": "Aplicación de escritorio para gestionar una cartera personal, desarrollada en Java y JavaFX siguiendo el patrón MVC.",
-      "learnt": "Aprendí a estructurar una aplicación siguiendo MVC y a separar correctamente la lógica de negocio, la interfaz y los datos.",
-      "tags": ["Java", "JavaFX", "MVC"],
-      "link": "https://github.com/paulazzaragoza/MiCartera",
-      "style": {
-        "rotation": "-2deg",
-        "titleColor": "var(--c-terracotta)"
-      }
-    },
-    "segundo-proyecto": {
-      "type": "PROYECTO DE CARRERA",
-      "title": "TaskFlow",
-      "content": "Aplicación de gestión de tareas desarrollada con Spring Boot y JavaFX, utilizando JPA y arquitectura hexagonal.",
-      "learnt": "Aprendí a aplicar arquitectura hexagonal para aislar el dominio y mantener el código desacoplado entre la lógica y la infraestructura.",
-      "tags": ["Java", "Spring Boot", "JavaFX", "JPA"],
-      "link": "https://github.com/paulazzaragoza/TaskFlow",
+    "cuarto-proyecto": {
+      "type": "PROYECTO PERSONAL",
+      "title": "Portfolio",
+      "content": "Portfolio personal desarrollado con Vue.js y Vite para mostrar mis proyectos, habilidades y experiencia de forma interactiva y accesible.",
+      "learnt": "Aprendí a estructurar aplicaciones con Vue.js y Vite, implementar i18n, gestionar componentes reutilizables y crear interfaces responsive orientadas a la experiencia de usuario.",
+      "tags": ["Vue", "Vite", "JavaScript", "i18n", "HTML", "CSS"],
+      "link": "https://github.com/paulazzaragoza/portfolio",
       "style": {
         "rotation": "2deg",
-        "titleColor": "var(--c-terracotta)"
+        "titleColor": "var(--c-matcha)"
       }
     },
     "tercer-proyecto": {
@@ -65,6 +53,30 @@
       "style": {
         "rotation": "-2deg",
         "titleColor": "var(--c-matcha)"
+      }
+    },
+    "segundo-proyecto": {
+      "type": "PROYECTO DE CARRERA",
+      "title": "TaskFlow",
+      "content": "Aplicación de gestión de tareas desarrollada con Spring Boot y JavaFX, utilizando JPA y arquitectura hexagonal.",
+      "learnt": "Aprendí a aplicar arquitectura hexagonal para aislar el dominio y mantener el código desacoplado entre la lógica y la infraestructura.",
+      "tags": ["Java", "Spring Boot", "JavaFX", "JPA"],
+      "link": "https://github.com/paulazzaragoza/TaskFlow",
+      "style": {
+        "rotation": "2deg",
+        "titleColor": "var(--c-terracotta)"
+      }
+    },
+    "primer-proyecto": {
+      "type": "PROYECTO DE CARRERA",
+      "title": "MiCartera",
+      "content": "Aplicación de escritorio para gestionar una cartera personal, desarrollada en Java y JavaFX siguiendo el patrón MVC.",
+      "learnt": "Aprendí a estructurar una aplicación siguiendo MVC y a separar correctamente la lógica de negocio, la interfaz y los datos.",
+      "tags": ["Java", "JavaFX", "MVC"],
+      "link": "https://github.com/paulazzaragoza/MiCartera",
+      "style": {
+        "rotation": "-2deg",
+        "titleColor": "var(--c-terracotta)"
       }
     }
   },

@@ -20,28 +20,16 @@
   },
 
   "proyectos": {
-    "primer-proyecto": {
-      "type": "ACADEMIC PROJECT",
-      "title": "MiCartera",
-      "content": "Desktop application for managing a personal portfolio, developed with Java and JavaFX following the MVC pattern.",
-      "learnt": "I learned how to structure an application using MVC and properly separate business logic, the interface, and data.",
-      "tags": ["Java", "JavaFX", "MVC"],
-      "link": "https://github.com/paulazzaragoza/MiCartera",
-      "style": {
-        "rotation": "-2deg",
-        "titleColor": "var(--c-terracotta)"
-      }
-    },
-    "segundo-proyecto": {
-      "type": "ACADEMIC PROJECT",
-      "title": "TaskFlow",
-      "content": "Task management application developed with Spring Boot and Java, using JPA and hexagonal architecture.",
-      "learnt": "I learned how to apply hexagonal architecture to isolate the domain and keep the code decoupled between logic and infrastructure.",
-      "tags": ["Java", "Spring Boot", "JavaFX", "JPA"],
-      "link": "https://github.com/paulazzaragoza/TaskFlow",
+    "cuarto-proyecto": {
+      "type": "PERSONAL PROJECT",
+      "title": "Portfolio",
+      "content": "Personal portfolio developed with Vue.js and Vite to showcase my projects, skills, and experience in an interactive and accessible way.",
+      "learnt": "I learned to structure applications with Vue.js and Vite, implement i18n, manage reusable components, and create responsive interfaces focused on user experience.",
+      "tags": ["Vue", "Vite", "JavaScript", "i18n", "HTML", "CSS"],
+      "link": "https://github.com/paulazzaragoza/portfolio",
       "style": {
         "rotation": "2deg",
-        "titleColor": "var(--c-terracotta)"
+        "titleColor": "var(--c-matcha)"
       }
     },
     "tercer-proyecto": {
@@ -65,6 +53,30 @@
       "style": {
         "rotation": "-2deg",
         "titleColor": "var(--c-matcha)"
+      }
+    },
+    "segundo-proyecto": {
+      "type": "ACADEMIC PROJECT",
+      "title": "TaskFlow",
+      "content": "Task management application developed with Spring Boot and Java, using JPA and hexagonal architecture.",
+      "learnt": "I learned how to apply hexagonal architecture to isolate the domain and keep the code decoupled between logic and infrastructure.",
+      "tags": ["Java", "Spring Boot", "JavaFX", "JPA"],
+      "link": "https://github.com/paulazzaragoza/TaskFlow",
+      "style": {
+        "rotation": "2deg",
+        "titleColor": "var(--c-terracotta)"
+      }
+    },
+    "primer-proyecto": {
+      "type": "ACADEMIC PROJECT",
+      "title": "MiCartera",
+      "content": "Desktop application for managing a personal portfolio, developed with Java and JavaFX following the MVC pattern.",
+      "learnt": "I learned how to structure an application using MVC and properly separate business logic, the interface, and data.",
+      "tags": ["Java", "JavaFX", "MVC"],
+      "link": "https://github.com/paulazzaragoza/MiCartera",
+      "style": {
+        "rotation": "-2deg",
+        "titleColor": "var(--c-terracotta)"
       }
     }
   },
