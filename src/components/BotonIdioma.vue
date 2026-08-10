@@ -53,5 +53,13 @@ const cambiarIdioma = () => {
   .p-button.titulo {
     transform: rotate(0deg);
   }
+
+  .p-button.titulo:hover {
+    transform: rotate(0deg);
+  }
+
+  .p-button.titulo:active {
+    transform: rotate(0deg);
+  }
 }
 </style>
