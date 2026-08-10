@@ -80,9 +80,10 @@ const year = new Date().getFullYear()
   font-size: 1.75rem;
   background-color: var(--c-butter);
   border-radius: var(--border-radius);
+  line-height: 2rem;
 
   --p-chip-padding-x: 0.4rem;
-  --p-chip-padding-y: none;
+  --p-chip-padding-y: 0.5rem;
 }
 
 @media (max-width: 950px) {
