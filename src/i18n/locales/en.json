@@ -12,7 +12,7 @@
     "first-paragraph-start": "I'm a",
     "degree": "Software Engineering ",
     "first-paragraph-end": "student. I enjoy building things that are fast, readable, and make life easier for the user.",
-    "second-paragraph": "Currently dealing with my end-of-year exams and learning software architecture on my own."
+    "second-paragraph": "Currently dealing with my finals and learning software architecture on my own."
   },
 
   "seccion-proyectos": {
@@ -94,9 +94,9 @@
       "role": "Full Stack & Data Developer (Internship)",
       "company": "@VERTEBRA GESTIÓN",
       "date": "Jun 2026 - Jun 2026",
-      "description": "Participation in enterprise application development, regulatory compliance, and data visualization.",
+      "description": "I worked in enterprise application development, regulatory compliance, and data visualization.",
       "highlights": [
-        "Implementation of invoicing processes adapted to Verifactu regulations for the AEAT (Spanish Tax Agency).",
+        "Invoice processing implementation adapted to Verifactu regulations for the AEAT (Spanish Tax Agency).",
         "Maintenance and integration of new features in legacy backend and frontend systems.",
         "Design of interactive dashboards in Power BI and relational database management using MSSQL."
       ],

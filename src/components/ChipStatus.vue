@@ -8,11 +8,15 @@ const { t } = useI18n()
 <template>
   <Chip class="flex align-items-center justify-content-center status text-center gap-2">
     <span class="status-dot" />
-    <span> {{ t('chip-status.title') }} </span>
+    <span class="actual-status"> {{ t('chip-status.title') }} </span>
   </Chip>
 </template>
 
 <style scoped>
+.actual-status {
+  line-height: 1.25rem;
+  --p-chip-padding-x: 0.4rem;
+}
 .p-chip.status {
   font-family: var(--code-font);
   font-weight: 700;

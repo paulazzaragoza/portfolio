@@ -14,7 +14,7 @@
   box-shadow: var(--shadow-ink-avatar);
   border: var(--border-solid-ink);
   border-radius: 50%;
-  transform: rotate(1.75deg);
+  transform: rotate(5deg);
 
   transition:
     box-shadow 0.2s ease,
@@ -24,6 +24,12 @@
 .avatar-img:hover {
   box-shadow: var(--shadow-ink-avatar-hover);
   transform: rotate(0deg) scale(1.03);
+}
+
+@media (max-width: 700px) {
+  .avatar-img {
+    transform: rotate(0deg);
+  }
 }
 
 @media (max-width: 400px) {

@@ -48,4 +48,10 @@ const cambiarIdioma = () => {
   transform: rotate(2.75deg) translate(2px, 2px);
   box-shadow: var(--shadow-ink-active);
 }
+
+@media (max-width: 800px) {
+  .p-button.titulo {
+    transform: rotate(0deg);
+  }
+}
 </style>
