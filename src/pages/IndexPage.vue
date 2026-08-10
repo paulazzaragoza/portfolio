@@ -3,6 +3,7 @@ import ChipTitulo from '@/components/ChipTitulo.vue'
 import ChipStatus from '@/components/ChipStatus.vue'
 import BotonIdioma from '@/components/BotonIdioma.vue'
 import SobreMi from '@/components/SobreMi.vue'
+import ExperienciaTimeline from '@/components/ExperienciaTimeline.vue'
 import TarjetaProyectos from '@/components/TarjetaProyectos.vue'
 import { Chip } from 'primevue'
 import { useI18n } from 'vue-i18n'
@@ -10,6 +11,7 @@ import { computed } from 'vue'
 
 const { t, tm } = useI18n()
 const proyectos = computed(() => tm('proyectos'))
+const trabajos = computed(() => tm('trabajos'))
 const year = new Date().getFullYear()
 </script>
 
@@ -39,11 +41,14 @@ const year = new Date().getFullYear()
         />
       </div>
     </section>
+    <Chip class="section-title mt-7 mb-4">{{ t('seccion-experiencia.title') }}</Chip>
+    <ExperienciaTimeline :trabajos="trabajos" />
+    <section></section>
   </main>
 
   <footer class="my-7 text-center">
     <hr />
-    <p class="footer-text">{{ t('footer.title') }} · © {{ year }}</p>
+    <p class="footer-text">{{ t('footer.title') }} © {{ year }}</p>
   </footer>
 </template>
 

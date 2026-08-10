@@ -26,6 +26,8 @@
 
     --shadow-ink-avatar-hover: 10px 10px 0 var(--c-ink);
 
+    --shadow-ink-timeline: 2px 2px 0 var(--c-ink);
+
     --title-font: 'Space Grotesk', sans-serif;
     --text-font: 'Plus Jakarta Sans', sans-serif;
     --code-font: 'JetBrains Mono', monospace;
@@ -50,6 +52,20 @@
     font-size: 1.25rem;
   }
 
+  .p-timeline {
+    --p-timeline-event-connector-color: var(--c-ink);
+    --p-timeline-event-connector-size: 4px;
+    --p-timeline-event-min-height: 10rem;
+  }
+
+  .p-timeline-event-content {
+    padding-left: 1.25rem;
+  }
+
+  .p-timeline-event-opposite {
+    display: none;
+  }
+
   h3 {
     color: var(--c-ink);
     font-family: var(--title-font);
@@ -62,6 +78,19 @@
     color: var(--c-ink);
     font-family: var(--text-font);
     font-size: 1.2rem;
+  }
+
+  ul.highlight {
+    color: var(--c-ink);
+    font-family: var(--code-font);
+    font-size: 0.9rem;
+    padding: 0.75rem;
+
+    font-weight: 700;
+    background-color: var(--c-terracotta-alpha);
+    border-left: 4px solid var(--c-terracotta);
+    padding-left: 1.75rem;
+    border-radius: 0 8px 8px 0;
   }
 
   p.subtitle {

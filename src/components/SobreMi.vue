@@ -17,8 +17,8 @@ const { t } = useI18n()
 
     <section class="flex flex-column gap-4 mt-2" style="grid-area: card-content">
       <p>
-        {{ t('sobre-mi.first-paragraph-start') }} <strong>{{ t('sobre-mi.degree') }}</strong>
-        {{ t('sobre-mi.first-paragraph-end') }}
+        {{ t('sobre-mi.first-paragraph-start') }} <strong>{{ t('sobre-mi.degree') }}</strong
+        >{{ t('sobre-mi.first-paragraph-end') }}
       </p>
       <p class="subtitle">
         {{ t('sobre-mi.second-paragraph') }}

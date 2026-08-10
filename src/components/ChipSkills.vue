@@ -1,8 +1,8 @@
 <script setup>
 import { Chip } from 'primevue'
 
-const { tags } = defineProps({
-  tags: {
+const { skills } = defineProps({
+  skills: {
     type: Array,
     required: true,
   },
@@ -11,12 +11,13 @@ const { tags } = defineProps({
 
 <template>
   <div class="flex flex-wrap align-items-center gap-1 mb-2 container">
-    <Chip v-for="(tag, index) in tags" class="chip-tag" :key="index" :label="tag" />
+    <Chip v-for="(skill, index) in skills" class="chip-skill" :key="index" :label="skill" />
   </div>
 </template>
 
 <style scoped>
-.chip-tag {
+.chip-skill {
+  color: var(--c-ink);
   font-family: var(--code-font);
   font-size: 0.85rem;
   font-weight: 700;

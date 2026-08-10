@@ -8,11 +8,11 @@
   },
 
   "sobre-mi": {
-    "welcome": "Hi! I'm ",
-    "first-paragraph-start": "I'm a student of ",
-    "degree": "Software Engineering",
-    "first-paragraph-end": ". I enjoy building things that are fast, readable, and don't make life harder for the user.",
-    "second-paragraph": "Currently struggling with my end-of-year exams and learning software architecture on my own."
+    "welcome": "Hi! I'm",
+    "first-paragraph-start": "I'm a",
+    "degree": "Software Engineering ",
+    "first-paragraph-end": "student. I enjoy building things that are fast, readable, and make life easier for the user.",
+    "second-paragraph": "Currently dealing with my end-of-year exams and learning software architecture on my own."
   },
 
   "seccion-proyectos": {
@@ -65,6 +65,61 @@
       "style": {
         "rotation": "-2deg",
         "titleColor": "var(--c-matcha)"
+      }
+    }
+  },
+
+  "seccion-experiencia": {
+    "title": "Work experience & background"
+  },
+
+  "trabajos": {
+    "tercer-trabajo": {
+      "role": "Full Stack Developer (Internship)",
+      "company": "@TICARUM (University of Murcia)",
+      "date": "Jul 2026 - Aug 2026",
+      "description": "Development of full-stack web applications using Spring Boot for the backend and Vue.js 3 for the frontend.",
+      "highlights": [
+        "Development of secure REST APIs with JWT, HATEOAS pagination, Criteria API, MapStruct, and Swagger/OpenAPI documentation.",
+        "Management, design, and validation of HTTP request collections using Bruno.",
+        "API integration in Vue.js 3 and development of enterprise interfaces using PrimeVue components."
+      ],
+      "tags": ["Spring Boot", "Vue.js 3", "JWT", "Bruno", "PrimeFaces", "Swagger"],
+      "style": {
+        "rotation": "0.5deg",
+        "dotColor": "var(--c-terracotta)"
+      }
+    },
+    "segundo-trabajo": {
+      "role": "Full Stack & Data Developer (Internship)",
+      "company": "@VERTEBRA GESTIÓN",
+      "date": "Jun 2026 - Jun 2026",
+      "description": "Participation in enterprise application development, regulatory compliance, and data visualization.",
+      "highlights": [
+        "Implementation of invoicing processes adapted to Verifactu regulations for the AEAT (Spanish Tax Agency).",
+        "Maintenance and integration of new features in legacy backend and frontend systems.",
+        "Design of interactive dashboards in Power BI and relational database management using MSSQL."
+      ],
+      "tags": ["Verifactu", "Power BI", "SQL Server", "Legacy Code", "Backend"],
+      "style": {
+        "rotation": "-0.5deg",
+        "dotColor": "var(--c-butter)"
+      }
+    },
+    "primer-trabajo": {
+      "role": "Undergraduate Research Assistant - R&D",
+      "company": "@DIIC (University of Murcia)",
+      "date": "Nov 2025 - May 2026",
+      "description": "Collaboration on an R&D project focused on the Apple development ecosystem.",
+      "highlights": [
+        "UI/UX design and prototyping of interactive interfaces using Figma.",
+        "Research and development of CLI tools and native mobile apps using Swift, SwiftUI, and Xcode.",
+        "Compilation, testing, and direct deployment of the app on an iPhone device for validation."
+      ],
+      "tags": ["SwiftUI", "Swift", "Xcode", "Figma", "iOS", "CLI"],
+      "style": {
+        "rotation": "0.5deg",
+        "dotColor": "var(--c-terracotta)"
       }
     }
   },

@@ -8,8 +8,8 @@
   },
 
   "sobre-mi": {
-    "welcome": "¡Hola! Soy ",
-    "first-paragraph-start": "Estudiante de ",
+    "welcome": "¡Hola! Soy",
+    "first-paragraph-start": "Estudiante de",
     "degree": "Ingeniería del Software",
     "first-paragraph-end": ". Me gusta construir cosas para que sean rápidas, legibles y que no compliquen la vida al usuario.",
     "second-paragraph": "Actualmente peleando con los exámenes de fin de curso y aprendiendo arquitectura de softwarepor mi cuenta."
@@ -65,6 +65,61 @@
       "style": {
         "rotation": "-2deg",
         "titleColor": "var(--c-matcha)"
+      }
+    }
+  },
+
+  "seccion-experiencia": {
+    "title": "Experiencia laboral & trayectoria"
+  },
+
+  "trabajos": {
+    "tercer-trabajo": {
+      "role": "Desarrolladora Full Stack (Prácticas)",
+      "company": "@TICARUM (Universidad de Murcia)",
+      "date": "Jul 2026 - Ago 2026",
+      "description": "Desarrollo de aplicaciones web full stack utilizando Spring Boot en backend y Vue.js 3 en frontend.",
+      "highlights": [
+        "Desarrollo de APIs REST seguras con JWT, paginación HATEOAS, Criteria API, MapStruct y documentación Swagger/OpenAPI.",
+        "Gestión, diseño y validación de colecciones de peticiones HTTP utilizando Bruno.",
+        "Integración de APIs en Vue.js 3 y desarrollo de interfaces empresariales utilizando componentes de PrimeVue."
+      ],
+      "tags": ["Spring Boot", "Vue.js 3", "JWT", "Bruno", "PrimeFaces", "Swagger"],
+      "style": {
+        "rotation": "0.5deg",
+        "dotColor": "var(--c-terracotta)"
+      }
+    },
+    "segundo-trabajo": {
+      "role": "Desarrolladora Full Stack & Data (Prácticas)",
+      "company": "@VERTEBRA GESTIÓN",
+      "date": "Jun 2026 - Jun 2026",
+      "description": "Participación en el desarrollo de aplicaciones empresariales, adaptación normativa y visualización de datos.",
+      "highlights": [
+        "Implementación de procesos de facturación adaptados a la normativa Verifactu para la AEAT.",
+        "Mantenimiento e integración de nuevas funcionalidades en sistemas backend y frontend legacy.",
+        "Diseño de paneles interactivos en Power BI y gestión de bases de datos relacionales con MSSQL."
+      ],
+      "tags": ["Verifactu", "Power BI", "SQL Server", "Legacy Code", "Backend"],
+      "style": {
+        "rotation": "-0.5deg",
+        "dotColor": "var(--c-butter)"
+      }
+    },
+    "primer-trabajo": {
+      "role": "Alumna Interna - Investigación & Desarrollo",
+      "company": "@DIIC (Universidad de Murcia)",
+      "date": "Nov 2025 - May 2026",
+      "description": "Colaboración en proyecto de I+D enfocado en el ecosistema de desarrollo de Apple.",
+      "highlights": [
+        "Diseño y prototipado UI/UX de interfaces interactivas utilizando Figma.",
+        "Desarrollo de herramientas CLI y aplicaciones móviles nativas creadas con Swift, SwiftUI y Xcode.",
+        "Compilación, pruebas y despliegue directo de la aplicación en dispositivos iPhone para su validación."
+      ],
+      "tags": ["SwiftUI", "Swift", "Xcode", "Figma", "iOS", "CLI"],
+      "style": {
+        "rotation": "0.5deg",
+        "dotColor": "var(--c-terracotta)"
       }
     }
   },

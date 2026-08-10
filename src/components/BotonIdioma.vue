@@ -29,6 +29,7 @@ const cambiarIdioma = () => {
   font-size: 0.9rem;
   border: var(--border-solid-ink);
   box-shadow: var(--shadow-ink);
+  transform: rotate(2.75deg);
   --p-button-border-radius: 30px;
   --p-button-padding-x: 0.8rem;
   --p-button-padding-y: 0.4rem;
@@ -39,12 +40,12 @@ const cambiarIdioma = () => {
 }
 
 .p-button.titulo:hover {
-  transform: translate(-2px, -2px);
+  transform: rotate(2.75deg) translate(-2px, -2px);
   box-shadow: var(--shadow-ink-hover);
 }
 
 .p-button.titulo:active {
-  transform: translate(2px, 2px);
+  transform: rotate(2.75deg) translate(2px, 2px);
   box-shadow: var(--shadow-ink-active);
 }
 </style>

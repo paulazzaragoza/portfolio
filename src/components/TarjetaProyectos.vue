@@ -12,8 +12,6 @@ const { proyectoInfo } = defineProps({
 const abrirEnlace = () => {
   window.open(proyectoInfo.link, '_blank')
 }
-
-console.log(proyectoInfo)
 </script>
 
 <template>
@@ -36,7 +34,7 @@ console.log(proyectoInfo)
       <p class="proyecto-learnt">{{ proyectoInfo.learnt }}</p>
 
       <div class="mt-4">
-        <ChipSkills :tags="proyectoInfo.tags" />
+        <ChipSkills :skills="proyectoInfo.tags" />
       </div>
     </template>
 
@@ -126,7 +124,7 @@ console.log(proyectoInfo)
 
 .proyecto-learnt {
   font-family: var(--code-font);
-  font-weight: 500;
+  font-weight: 700;
   background-color: var(--c-terracotta-alpha);
   border-left: 4px solid var(--c-terracotta);
   font-size: 0.9rem;
