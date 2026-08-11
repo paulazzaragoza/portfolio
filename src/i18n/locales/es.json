@@ -35,7 +35,7 @@
     "tercer-proyecto": {
       "type": "PROYECTO DE PRÁCTICAS",
       "title": "EcoMarket",
-      "content": "Aplicación web para la gestión de un marketplace, desarrollada durante las prácticas con Spring Boot y arquitectura hexagonal.",
+      "content": "Aplicación web para la gestión de un marketplace, desarrollada durante las prácticas con Spring Boot y arquitectura hexagonal. SIN TERMINAR",
       "learnt": "Aprendí a conectar frontend y backend utilizando JPA/HATEOAS, paginación, Swagger, Vue.js y JavaScript.",
       "tags": [
         "Spring Boot",
