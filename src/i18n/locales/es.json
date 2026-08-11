@@ -112,7 +112,7 @@
         "Mantenimiento e integración de nuevas funcionalidades en sistemas backend y frontend legacy.",
         "Diseño de paneles interactivos en Power BI y gestión de bases de datos relacionales con MSSQL."
       ],
-      "tags": ["Verifactu", "Power BI", "SQL Server", "Legacy Code", "Backend"],
+      "tags": ["Verifactu", "Power BI", "MSSQL", "Legacy Code", "Backend"],
       "style": {
         "rotation": "-0.5deg",
         "dotColor": "var(--c-butter)"

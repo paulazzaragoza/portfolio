@@ -112,7 +112,7 @@
         "Maintenance and integration of new features in legacy backend and frontend systems.",
         "Design of interactive dashboards in Power BI and relational database management using MSSQL."
       ],
-      "tags": ["Verifactu", "Power BI", "SQL Server", "Legacy Code", "Backend"],
+      "tags": ["Verifactu", "Power BI", "MSSQL", "Legacy Code", "Backend"],
       "style": {
         "rotation": "-0.5deg",
         "dotColor": "var(--c-butter)"
