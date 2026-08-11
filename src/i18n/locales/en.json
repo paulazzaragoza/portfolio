@@ -35,7 +35,7 @@
     "tercer-proyecto": {
       "type": "INTERNSHIP PROJECT",
       "title": "EcoMarket",
-      "content": "Web application for managing a marketplace, developed during an internship using Spring Boot and hexagonal architecture. NOT FINISHED",
+      "content": "Web application for managing a marketplace, developed during an internship using Spring Boot and hexagonal architecture.",
       "learnt": "I learned how to connect frontend and backend using JPA/HATEOAS, pagination, Swagger, Vue.js and JavaScript.",
       "tags": [
         "Spring Boot",
