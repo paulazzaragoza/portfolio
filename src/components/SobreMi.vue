@@ -43,7 +43,7 @@ const { t } = useI18n()
 
 .card-container {
   width: 100%;
-  max-width: 75rem;
+  max-width: 65rem;
   min-height: 30rem;
   padding: 2rem;
 
