@@ -49,7 +49,7 @@ const { trabajoInfo } = defineProps({
 
 .card-container {
   width: 100%;
-  max-width: 70rem;
+  max-width: 60rem;
   min-height: 20rem;
   padding: 2rem;
   margin-bottom: 2rem;
